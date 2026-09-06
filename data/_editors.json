@@ -6,17 +6,13 @@
     },
     {
         "role": "admin",
+        "role": "dev",
         "name": "GWeo",
         "link": "https://youtube.com/@릴리지웨오"
     },
     {
         "role": "admin",
         "name": "Earl",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "trial",
-        "name": "Trial List Helper",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
