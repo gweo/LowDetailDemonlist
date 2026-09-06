@@ -30,7 +30,13 @@ export function score(rank, percent, minPercent) {
     score = Math.max(0, score);
 
     if (percent != 100) {
-        return round(score - score / 3);
+        // 100% completion gets full points, TRIPLED
+        score = maxPoints * 3;
+    } else {
+        // Progress runs stay normal (scaling from 15% at minPercent up to 25% based on original maxPoints)
+        let progressFraction = (percent - minPercent) / (100 - minPercent);
+        let multiplier = 0.15 + (0.25 - 0.15) * progressFraction;
+        score = maxPoints * multiplier;
     }
 
     return Math.max(round(score), 0);
