@@ -29,12 +29,11 @@ export function score(rank, percent, minPercent) {
 
     score = Math.max(0, score);
 
-    if (percent >= 100) {
-        // 100% completion gets full points, TRIPLED
-        score = maxPoints * 3;
+    if (percent != 100) {
+        return round(score - score / 3);
     }
 
-    return Math.max(round(score), 0);
+    return Math.max(round(score * 3), 0);
 }
 
 export function round(num) {
