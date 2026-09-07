@@ -1,0 +1,30 @@
+{
+    "id": 138131710,
+    "name": "griefstep",
+    "author": "chonxamGD",
+    "creators": ["chonxamGD"],
+    "verifier": "Dawgie",
+    "verification": "https://www.tiktok.com/@gd_ig19/video/7666066643403115799?_r=1&_t=ZG-98IfJlZJzsW",
+    "percentToQualify": "59",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=Myj1Ydq_D7k",
+            "percent": 100,
+            "hz": 0
+        },
+      {
+            "user": "Thomas",
+            "link": "https://www.youtube.com/watch?v=DpR_uVcy5iM",
+            "percent": 100,
+            "hz": 0
+        },
+       {
+            "user": "Freenora",
+            "link": "https://www.youtube.com/watch?v=5aGo1HHGV80",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
