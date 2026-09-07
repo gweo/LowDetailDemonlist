@@ -1,0 +1,18 @@
+{
+    "id": 141523163,
+    "name": "Shitty Society",
+    "author": "GILD56",
+    "creators": ["GILD56"],
+    "verifier": "Freenora",
+    "verification": "https://www.youtube.com/watch?v=Mbnwl509bsA",
+    "percentToQualify": "49",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gweogd",
+            "link": "https://www.youtube.com/watch?v=Sh5rS9l1gm4",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
