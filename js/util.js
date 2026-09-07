@@ -6,15 +6,7 @@ export function getYoutubeIdFromUrl(url) {
 }
 
 export function embed(video) {
-    if (!video) return '';
-
-    // If it's a YouTube link, use the template's default embedding code
-    if (video.includes('youtube.com') || video.includes('youtu.be')) {
-        return `https://youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
-    }
-
-    // If it's TikTok, Medal, or anything else, return the link directly as a fallback
-    return video;
+    return `https://www.youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
 }
 
 export function localize(num) {
