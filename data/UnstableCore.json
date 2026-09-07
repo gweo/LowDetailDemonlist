@@ -1,0 +1,18 @@
+{
+    "id": 96241204,
+    "name": "Unstable Core",
+    "author": "Rafitoxdxd",
+    "creators": ["Rafitoxdxd"],
+    "verifier": "Freenora",
+    "verification": "https://www.youtube.com/watch?v=Dx2ZflVVz3g",
+    "percentToQualify": "65",
+    "password": "Locked",
+    "records": [
+        {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=oIXC7HChVr4",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
