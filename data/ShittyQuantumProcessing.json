@@ -1,0 +1,18 @@
+{
+    "id": 146006207,
+    "name": "Shitty Quantum Processing",
+    "author": "AcropolisBoy",
+    "creators": ["AcropolisBoy"],
+    "verifier": "Freenora",
+    "verification": "https://youtu.be/9dBH6qSAtoA?feature=shared",
+    "percentToQualify": "58",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=p3LSO-wsJJc",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
