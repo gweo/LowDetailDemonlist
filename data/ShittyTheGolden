@@ -1,0 +1,24 @@
+{
+    "id": 61034576,
+    "name": "Shitty The Golden",
+    "author": "AcropolisBoy",
+    "creators": ["AcropolisBoy"],
+    "verifier": "Freenora",
+    "verification": "https://youtu.be/FsNN-j9__GE?feature=shared",
+    "percentToQualify": "61",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Adur",
+            "link": "https://youtu.be/0dW-NmaSdaQ?si=oc8RqC6zZY09nFX1-",
+            "percent": 100,
+            "hz": 0
+        },
+       {
+            "user": "Thomas",
+            "link": "https://youtu.be/FVaCi5iSOP4?si=rELdZeW1GEkFUMsY",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
