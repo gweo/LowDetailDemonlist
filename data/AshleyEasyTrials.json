@@ -1,0 +1,18 @@
+{
+    "id": 0,
+    "name": "Ashley Easy Trials",
+    "author": "HyperNova559X",
+    "creators": ["creator, author"],
+    "verifier": "verifier",
+    "verification": "",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "victor",
+            "link": "",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
