@@ -1,0 +1,36 @@
+{
+    "id": 60160311,
+    "name": "Shitty Xo Circles",
+    "author": "AcropolisBoyr",
+    "creators": ["AcropolisBoy"],
+    "verifier": "Freenora",
+    "verification": "https://youtu.be/M3_THD59ZR8",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "S.O.S",
+            "link": "https://www.youtube.com/watch?v=9DE4WOmSRmo",
+            "percent": 100,
+            "hz": 0
+        }, 
+        {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=oIXC7HChVr4",
+            "percent": 100,
+            "hz": 0
+        },
+        {  
+            "user": "Thomas",
+            "link": "https://www.youtube.com/watch?v=fovQAW-aZQA",
+            "percent": 100,
+            "hz": 0
+        },
+        {  
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=3qi70_6tB8A",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+  
