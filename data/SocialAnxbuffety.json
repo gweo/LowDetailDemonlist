@@ -1,1 +1,30 @@
-
+{
+    "id": 143717866,
+    "name": "Social Anxbuffety",
+    "author": "legendjackko",
+    "creators": ["legendjackko"],
+    "verifier": "Dawgie",
+    "verification": "https://www.tiktok.com/@demobeeistuff/video/7656930522429394209?is_from_webapp=1",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=XU_k9roGGz4",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Freenora",
+            "link": "https://www.youtube.com/watch?v=adkoObuaf7o",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Thomas",
+            "link": "https://www.youtube.com/watch?v=lwJ9Ukfg66s",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
