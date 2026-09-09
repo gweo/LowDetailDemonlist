@@ -1,18 +1,13 @@
 {
-    "id": 0,
+    "id": 108773944,
     "name": "Ashley Easy Trials",
     "author": "HyperNova559X",
-    "creators": ["creator, author"],
-    "verifier": "verifier",
-    "verification": "",
-    "percentToQualify": "100",
+    "creators": ["HyperNova559X, OddMod"],
+    "verifier": "Dawgie",
+    "verification": "https://www.tiktok.com/@gd_ig19/video/7680813826941422870?_r=1&_t=ZG-99ODCAeR7TN",
+    "percentToQualify": "65",
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "victor",
-            "link": "",
-            "percent": 100,
-            "hz": 0
-        }
+        
     ]
 }
