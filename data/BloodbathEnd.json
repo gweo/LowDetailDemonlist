@@ -1,0 +1,36 @@
+{
+    "id": 13058863,
+    "name": "Bloodbath End",
+    "author": "author",
+    "creators": ["creator, author"],
+    "verifier": "Freenora",
+    "verification": "https://youtu.be/MVCpF6ld5E4",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Thomas",
+            "link": "https://www.youtube.com/watch?v=FFZvrOcYgWg",
+            "percent": 100,
+            "hz": 0
+        },
+      {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=p3LSO-wsJJc",
+            "percent": 100,
+            "hz": 0
+        },
+      {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=a5DFfV2ns3Y",
+            "percent": 100,
+            "hz": 0
+        },
+      {
+            "user": "Earl",
+            "link": "https://www.youtube.com/watch?v=TjK76kUarVs",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
