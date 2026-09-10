@@ -1,0 +1,18 @@
+{
+    "id": 112133204,
+    "name": "VIOLET MELTDOWN",
+    "author": "LORDZ666GD",
+    "creators": ["LORDZ666GD"],
+    "verifier": "S.O.S",
+    "verification": "https://www.youtube.com/watch?v=aJnoeDxaB1o",
+    "percentToQualify": "70",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Thomas",
+            "link": "https://www.youtube.com/watch?v=KvPcq1Nt7PA",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
