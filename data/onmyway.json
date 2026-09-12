@@ -1,0 +1,24 @@
+{
+    "id": 79210084,
+    "name": "on my way",
+    "author": "DeltonaX",
+    "creators": ["DeltonaX"],
+    "verifier": "arda!!",
+    "verification": "https://www.youtube.com/watch?v=zWqhzuREzTk",
+    "percentToQualify": "70",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Adur",
+            "link": "https://www.youtube.com/watch?v=Ssa_9qyF1IQ",
+            "percent": 100,
+            "hz": 0
+        },
+      {
+            "user": "Freenora",
+            "link": "https://youtu.be/4hmLC2XOQQw",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
