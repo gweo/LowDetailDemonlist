@@ -1,0 +1,18 @@
+{
+    "id": 19090927,
+    "name": "VeritY Dual",
+    "author": "Kiruu",
+    "creators": ["Kiruu"],
+    "verifier": "Dawgie",
+    "verification": "https://vm.tiktok.com/ZN8YgGEET/",
+    "percentToQualify": "100",
+    "password": "Locked",
+    "records": [
+        {
+            "user": "Earl",
+            "link": "https://www.youtube.com/watch?v=aEI07mOtAdA",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
