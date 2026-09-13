@@ -1,0 +1,18 @@
+{
+    "id": 144801529,
+    "name": "alive hallway",
+    "author": "Blueish2763",
+    "creators": ["Blueish2763"],
+    "verifier": "Sinan",
+    "verification": "https://www.youtube.com/watch?v=CW1hjt4u5LA",
+    "percentToQualify": "60",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "S.O.S",
+            "link": "https://www.youtube.com/watch?v=g0VGoPV-WKg",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
