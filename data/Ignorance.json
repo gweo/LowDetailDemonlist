@@ -1,0 +1,18 @@
+{
+    "id": 136348175,
+    "name": "Ignorance",
+    "author": "disturbeddd",
+    "creators": ["disturbeddd, author"],
+    "verifier": "Freenora",
+    "verification": "https://youtu.be/cVCHQB3vEek",
+    "percentToQualify": "68",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "7xv",
+            "link": "https://www.youtube.com/watch?v=RLH3lr0MsJQ",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
