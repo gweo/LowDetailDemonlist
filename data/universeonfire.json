@@ -1,0 +1,24 @@
+{
+    "id": 83917710,
+    "name": "universe on fire",
+    "author": "LTDL",
+    "creators": ["LTDL"],
+    "verifier": "Freenora",
+    "verification": "https://youtu.be/Dx-d3JOvmWw?feature=shared",
+    "percentToQualify": "59",
+    "password": "Uncopyable",
+    "records": [
+        {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=8qO5Nu06fUU",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/bu2kH-g8VEk?si=2-qwXhc6MZJvSkig
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
