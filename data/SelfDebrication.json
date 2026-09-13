@@ -1,0 +1,24 @@
+{
+    "id": 114126633,
+    "name": "Self Debrication",
+    "author": "LORDZ666GD",
+    "creators": ["LORDZ666GD"],
+    "verifier": "S.O.S",
+    "verification": "https://www.youtube.com/watch?v=Dykpjx4FEPQ",
+    "percentToQualify": "60",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Freenora",
+            "link": "https://youtu.be/DrFnxKPRUvc",
+            "percent": 100,
+            "hz": 0
+        },
+      {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=NzJiUdIr2JM",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
