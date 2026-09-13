@@ -1,0 +1,24 @@
+{
+    "id": 147719307,
+    "name": "wawagarasu",
+    "author": "jaydowe",
+    "creators": ["jaydowe"],
+    "verifier": "Kinder",
+    "verification": "Kinder",
+    "percentToQualify": "60",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/-XoRg-MWTwA?si=Mlw6BIILJ3xj8Y57",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=8qO5Nu06fUU",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
