@@ -134,7 +134,8 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        currentFilter: 'all',
     }),
     computed: {
         level() {
@@ -143,13 +144,22 @@ export default {
         video() {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
+            },
+             computed: {
+        filteredList() {
+            if (this.currentFilter === 'all') {
+                return this.list;
             }
+            return this.list.filter(level => level.type === this.currentFilter);
+        }
+    },
+
 
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
                     : this.level.verification
-            );
+            ),
         },
     },
     async mounted() {
