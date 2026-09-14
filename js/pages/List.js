@@ -164,4 +164,4 @@ export default {
             return this.list.filter(level => level.type === this.currentFilter);
         },
     },
-
+}
