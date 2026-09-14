@@ -157,11 +157,12 @@ export default {
                     : this.level.verification
             );
         },
-        filteredList() {
+               filteredList() {
             if (this.currentFilter === 'all') {
                 return this.list;
             }
-            return this.list.filter(level => level.type === this.currentFilter);
+            return this.list.filter(level => (level.type || 'full') === this.currentFilter);
         },
+
     },
 }
