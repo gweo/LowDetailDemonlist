@@ -149,7 +149,7 @@ export default {
         video() {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
-            },
+            }},
              computed: {
         filteredList() {
             if (this.currentFilter === 'all') {
