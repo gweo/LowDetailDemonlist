@@ -143,14 +143,20 @@ export default {
         currentFilter: 'all',
     }),
     computed: {
+            computed: {
         level() {
             return this.list[this.selected][0];
         },
         video() {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
-            }},
-             computed: {
+            }
+            return embed(
+                this.toggledShowcase
+                    ? this.level.showcase
+                    : this.level.verification
+            );
+        },
         filteredList() {
             if (this.currentFilter === 'all') {
                 return this.list;
