@@ -4,6 +4,7 @@
     "author": "author",
     "creators": ["creator, author"],
     "verifier": "verifier",
+    "type": "full",
     "verification": "",
     "percentToQualify": "100",
     "password": "Free To Copy",
