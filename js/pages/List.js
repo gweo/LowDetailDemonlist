@@ -23,8 +23,11 @@ export default {
         <main v-else class="page-list">
             <div class="list-filter" style="display: flex; gap: 10px; margin-bottom: 15px; justify-content: center;">
                 <button @click="currentFilter = 'all'" :class="{ active: currentFilter === 'all' }">All</button>
-                <button @click="currentFilter = 'full'" :class="{ active: currentFilter === 'full' }">Full Levels</button>
-                <button @click="currentFilter = 'challenge'" :class="{ active: currentFilter === 'challenge' }">Challenges</button>
+                <button @click="currentFilter = 'Tiny'" :class="{ active: currentFilter === 'Tiny' }">Tiny Levels</button>
+                <button @click="currentFilter = 'Short'" :class="{ active: currentFilter === 'Short' }">Short Levels</button>
+                <button @click="currentFilter = 'Medium'" :class="{ active: currentFilter === 'Medium' }">Medium Levels</button>
+                <button @click="currentFilter = 'Long'" :class="{ active: currentFilter === 'Long' }">Long Levels</button>
+                <button @click="currentFilter = 'XL'" :class="{ active: currentFilter === 'XL' }">XL Levels</button>
             </div>
                  <div class="list-container">
                 <table class="list" v-if="list">
