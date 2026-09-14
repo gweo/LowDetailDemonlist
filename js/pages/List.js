@@ -21,7 +21,12 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
-            <div class="list-container">
+            <div class="list-filter" style="display: flex; gap: 10px; margin-bottom: 15px; justify-content: center;">
+                <button @click="currentFilter = 'all'" :class="{ active: currentFilter === 'all' }">All</button>
+                <button @click="currentFilter = 'full'" :class="{ active: currentFilter === 'full' }">Full Levels</button>
+                <button @click="currentFilter = 'challenge'" :class="{ active: currentFilter === 'challenge' }">Challenges</button>
+            </div>
+                 <div class="list-container">
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
