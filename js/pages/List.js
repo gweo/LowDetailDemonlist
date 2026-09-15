@@ -171,7 +171,7 @@ export default {
             
             return this.list.filter(level => {
                 if (!level) return false; 
-                return (level.type || 'full') === this.currentFilter;
+                return (level.type || 'Long') === this.currentFilter;
             });
         },
 
