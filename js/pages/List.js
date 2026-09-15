@@ -1,4 +1,4 @@
-import { store } from "../main.js";
+   import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
 import { fetchEditors, fetchList } from "../content.js";
@@ -21,17 +21,9 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
-            <div class="list-filter" style="display: flex; gap: 10px; margin-bottom: 15px; justify-content: center;">
-                <button @click="currentFilter = 'all'" :class="{ active: currentFilter === 'all' }">All</button>
-                <button @click="currentFilter = 'Tiny'" :class="{ active: currentFilter === 'Tiny' }">Tiny Levels</button>
-                <button @click="currentFilter = 'Short'" :class="{ active: currentFilter === 'Short' }">Short Levels</button>
-                <button @click="currentFilter = 'Medium'" :class="{ active: currentFilter === 'Medium' }">Medium Levels</button>
-                <button @click="currentFilter = 'Long'" :class="{ active: currentFilter === 'Long' }">Long Levels</button>
-                <button @click="currentFilter = 'XL'" :class="{ active: currentFilter === 'XL' }">XL Levels</button>
-            </div>
-                 <div class="list-container">
+            <div class="list-container">
                 <table class="list" v-if="list">
-                   <tr v-for="(level, i) in filteredList">
+                    <tr v-for="([level, err], i) in list">
                         <td class="rank">
                             <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
@@ -114,7 +106,7 @@ export default {
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
                     </p>
                     <p>
-                         You are not required to submit verifications with a YouTube link but its better if done so.
+                         You are required to submit verifications with a YouTube link.
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
@@ -142,38 +134,51 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store,
-        currentFilter: 'all',
+        store
     }),
-
     computed: {
         level() {
-            return this.list[this.selected] || 0;
+            return this.list[this.selected][0];
         },
         video() {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
             }
+
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
                     : this.level.verification
             );
         },
-                   filteredList() {
-            if (!this.list || !Array.isArray(this.list)) {
-                return [];
-            }
-            
-            if (this.currentFilter === 'all') {
-                return this.list;
-            }
-            
-            return this.list.filter(level => {
-                if (!level) return false; 
-                return (level.type || 'Long') === this.currentFilter;
-            });
-        },
-
     },
-}
+    async mounted() {
+        // Hide loading spinner
+        this.list = await fetchList();
+        this.editors = await fetchEditors();
+
+        // Error handling
+        if (!this.list) {
+            this.errors = [
+                "Failed to load list. Retry in a few minutes or notify list staff.",
+            ];
+        } else {
+            this.errors.push(
+                ...this.list
+                    .filter(([_, err]) => err)
+                    .map(([_, err]) => {
+                        return `Failed to load level. (${err}.json)`;
+                    })
+            );
+            if (!this.editors) {
+                this.errors.push("Failed to load list editors.");
+            }
+        }
+
+        this.loading = false;
+    },
+    methods: {
+        embed,
+        score,
+    },
+};
