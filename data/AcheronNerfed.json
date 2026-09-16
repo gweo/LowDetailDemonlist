@@ -1,0 +1,37 @@
+{
+    "id": 144657194,
+    "name": "Acheron Nerfed",
+    "author": "geodasher9907",
+    "creators": ["geodasher9907"],
+    "verifier": "Kinder",
+    "type": "Long",
+    "verification": "https://www.youtube.com/watch?v=VRXgtCrQlB0",
+    "percentToQualify": "66",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Artemis 13",
+            "link": "https://medal.tv/games/geometry-dash/clips/npBhiLaJxPbZKiHh9?invite=cr-MSxJWjksNTk2MDUwNDM4",
+            "percent": 100,
+            "hz": "?/?/??"
+        },
+      {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/_HSG-fXlepY?si=aeqIL_yMw_e685XF",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+      {
+            "user": "7xv",
+            "link": "https://www.youtube.com/watch?v=4PGxjKjNYSU",
+            "percent": 100,
+            "hz": "?/?/??"
+        },
+       {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=Xy9a7pD_as8",
+            "percent": 100,
+            "hz": "8/31/2026"
+        }
+    ]
+}
