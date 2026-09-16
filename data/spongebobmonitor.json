@@ -1,0 +1,43 @@
+{
+    "id": 95031850,
+    "name": "spongebob monitor",
+    "author": "pazzone",
+    "creators": ["pazzone"],
+    "verifier": "Freenora",
+    "type": "Medium",
+    "verification": "https://youtu.be/Sim86d1VFdY?is=lR3nRMVBmB37hjWo",
+    "percentToQualify": "65",
+    "password": "Locked",
+    "records": [
+        {
+            "user": "S.O.S",
+            "link": "https://www.youtube.com/watch?v=aj_ZoUcT_ys",
+            "percent": 100,
+            "hz": "7/10/2026"
+        },
+      {
+            "user": "Earl",
+            "link": "https://www.youtube.com/watch?v=JXPORNgSedA",
+            "percent": 100,
+            "hz": "7/10/2026"
+        },
+       {
+            "user": "Artemis 13",
+            "link": "https://medal.tv/games/geometry-dash/clips/npC5Xj5STvRdOTr9F?invite=cr-MSxUcnMsNTk2MDUwNDM4",
+            "percent": 100,
+            "hz": "?/??/????"
+        },
+      {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=OsDZ5z2-qNk",
+            "percent": 100,
+            "hz": "8/31/2026"
+        },
+      {
+            "user": "Lemon",
+            "link": "https://www.youtube.com/watch?v=r4wMYw7n7nk",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
