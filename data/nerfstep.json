@@ -1,0 +1,25 @@
+{
+    "id": 143110188,
+    "name": "nerfstep",
+    "author": "geodasher9909",
+    "creators": ["geodasher9909"],
+    "verifier": "Dawgie",
+    "type": "Long",
+    "verification": "https://www.tiktok.com/@gd_ig19/video/7653518152113982742?is_from_webapp=1",
+    "percentToQualify": "73",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Freenora",
+            "link": "https://www.youtube.com/watch?v=ZK7GjuhzM2I",
+            "percent": 100,
+            "hz": "6/28/2026"
+        },
+       {
+            "user": "Kinder",
+            "link": "https://www.youtube.com/watch?v=mzE83tqFUJ0",
+            "percent": 100,
+            "hz": "6/29/2026"
+        }
+    ]
+}
