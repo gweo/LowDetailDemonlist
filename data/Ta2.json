@@ -1,0 +1,19 @@
+{
+    "id": 146986633,
+    "name": "Ta 2",
+    "author": "Earl12",
+    "creators": ["Earl12"],
+    "verifier": "Earl",
+    "type": "Tiny",
+    "verification": "https://www.youtube.com/watch?v=YPVesNqI8uQ",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=YPVPLODu5b0",
+            "percent": 100,
+            "hz": "8/31/2026"
+        }
+    ]
+}
