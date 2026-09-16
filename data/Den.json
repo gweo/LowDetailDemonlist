@@ -1,0 +1,19 @@
+{
+    "id": 148334333,
+    "name": "Den",
+    "author": "Freenora",
+    "creators": ["Freenora"],
+    "verifier": "Freenora",
+    "type": "Long",
+    "verification": "https://www.youtube.com/watch?v=xhNfkhuK3lQ",
+    "percentToQualify": "75",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Dawgie",
+            "link": "https://www.youtube.com/watch?v=X3zAndQhfVw",
+            "percent": 100,
+            "hz": "7/1/2026"
+        }
+    ]
+}
