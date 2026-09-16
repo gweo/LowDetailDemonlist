@@ -1,0 +1,42 @@
+{
+    "id": 143580924,
+    "name": "Social Anxiety",
+    "author": "geodasher9908",
+    "creators": ["geodasher9908, JMAN444, Neomarbilan"],
+    "verifier": "Kinder",
+    "type": "Tiny",
+    "verification": "https://www.youtube.com/watch?v=AEoS380aS4s",
+    "percentToQualify": "54",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Freenora",
+            "link": "https://youtu.be/6_nlqp7qZxQ?feature=shared",
+            "percent": 100,
+            "hz": "6/28/2026"
+        },
+        {   "user": "S.O.S",
+            "link": "https://youtu.be/6o4OarOL2ss?si=LvdrHSVF_mhGjZsC",
+            "percent": 100,
+            "hz": "6/28/2026"
+        },
+        {
+            "user": "Sinan",
+            "link": "https://youtu.be/n4BVC2RZUdU?si=6GcxPpIRgvUngbin",
+            "percent": 100,
+            "hz": "7/14/2026"
+        },
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/jVsQkxmyKKU?si=rg9xOCi_m9RV2ocu",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=8WOjWM5oEZo",
+            "percent": 100,
+            "hz": "8/31/2026"
+        }
+    ]
+}
