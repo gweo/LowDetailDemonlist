@@ -1,0 +1,31 @@
+{
+    "id": 145887787,
+    "name": "triangle Force",
+    "author": "Bill13high",
+    "creators": ["Bill13high"],
+    "verifier": "Bill13high",
+    "type": "XL",
+    "verification": "https://youtu.be/EErsSs6v7iM?si=saZ8hjEGo6EmnC_o",
+    "percentToQualify": "48",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "arda!!",
+            "link": "https://youtu.be/pN78yfA9IrY?si=moBAMSInCJY43hpG",
+            "percent": 100,
+            "hz": "7/29/2026"
+        },      
+        {
+            "user": "KayogreGD",
+            "link": "https://www.youtube.com/watch?v=8fBTSK9s7wk",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },   
+        {
+            "user": "Lukas",
+            "link": "https://youtu.be/wOdRWKlm38I?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        }
+    ]
+}
