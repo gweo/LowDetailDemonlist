@@ -1,19 +1,19 @@
 {
-    "id": 64772908,
-    "name": "Abyss of Destiny",
-    "author": "Coinlol",
-    "creators": ["Coinlol"],
-    "verifier": "Freenora",
+    "id": 0,
+    "name": "Level_Name",
+    "author": "publisher",
+    "creators": ["creator, author"],
+    "verifier": "verifier",
     "type": "XL",
-    "verification": "https://youtu.be/DHOzlo6OyfI?feature=shared",
+    "verification": "https://youtu.be/youtubelink",
     "percentToQualify": "66",
     "password": "Free To Copy",
     "records": [
         {
-            "user": "Lukas",
-            "link": "https://www.youtube.com/watch?v=haRBoV1-CuI",
+            "user": "victor",
+            "link": "https://www.youtube.com/???",
             "percent": 100,
-            "hz": 0
+            "hz": completion date
         }
     ]
 }
