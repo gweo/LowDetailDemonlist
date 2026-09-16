@@ -1,0 +1,61 @@
+{
+    "id": 145877412,
+    "name": "every end last percent",
+    "author": "Blueish2762",
+    "creators": ["Blueish2762, MindCap, cobrablitz"],
+    "verifier": "Sinan",
+    "type": "Tiny",
+    "verification": "https://www.youtube.com/watch?v=SyyP3AT0zYc",
+    "percentToQualify": "66",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Bill13high",
+            "link": "https://youtu.be/bK0Et1WyEIQ?si=hcl4Qj25S3rxSeFm",
+            "percent": 100,
+            "hz": "7/29/2026"
+        },
+        {
+            "user": "Thomas",
+            "link": "https://youtu.be/uySwlil6YyU?si=5I32X7iiligbE2Dm",
+            "percent": 100,
+            "hz": "7/29/2026"
+        },
+        {
+            "user": "7xv",
+            "link": "https://www.youtube.com/watch?v=XeLrGjs9jsQ",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/AdhPuXgar-8?si=CZliO34M0JCeoBaU",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=ExZn-b80a4M",
+            "percent": 100,
+            "hz": "8/31/2026"
+        },
+        {
+            "user": "Lemon",
+            "link": "https://youtu.be/I0ZXAT7mn6A?si=_cZj2NbTCy8NcPqW",
+            "percent": 100,
+            "hz": "9/3/2026"
+        },
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/axWdyfDh0fM?si=szLX27mdXmnsMQiv",
+            "percent": 100,
+            "hz": "?/?/??"
+        },
+        {
+            "user": "victor",
+            "link": "https://www.youtube.com/???",
+            "percent": 100,
+            "hz": "?/?/??"
+        },
+    ]
+}
