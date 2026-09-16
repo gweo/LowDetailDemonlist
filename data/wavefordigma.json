@@ -1,0 +1,31 @@
+{
+    "id": 146977279,
+    "name": "wave for digma",
+    "author": "Earl12",
+    "creators": ["Earl12"],
+    "verifier": "Earl",
+    "type": "Short",
+    "verification": "https://www.youtube.com/watch?v=U5LShM9qGVQ",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Thomas",
+            "link": "https://www.youtube.com/watch?v=UqHaPtK79oE",
+            "percent": 100,
+            "hz": "8/15/2026"
+        },
+       {
+            "user": "KayogreGD",
+            "link": "https://www.youtube.com/watch?v=Oqup-cg4r7E",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+      {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=n3TxE6rkVMY",
+            "percent": 100,
+            "hz": "8/31/2026"
+        }
+    ]
+}
