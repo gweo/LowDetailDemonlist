@@ -1,17 +1,17 @@
 {
-    "id": 0,
-    "name": "levelname",
-    "author": "author",
-    "creators": ["creator, author"],
-    "verifier": "verifier",
-    "type": "full",
-    "verification": "",
-    "percentToQualify": "100",
+    "id": 64772908,
+    "name": "Abyss of Destiny",
+    "author": "Coinlol",
+    "creators": ["Coinlol"],
+    "verifier": "Freenora",
+    "type": "XL",
+    "verification": "https://youtu.be/DHOzlo6OyfI?feature=shared",
+    "percentToQualify": "66",
     "password": "Free To Copy",
     "records": [
         {
-            "user": "victor",
-            "link": "",
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=haRBoV1-CuI",
             "percent": 100,
             "hz": 0
         }
