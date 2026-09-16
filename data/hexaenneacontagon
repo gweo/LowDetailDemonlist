@@ -1,0 +1,31 @@
+{
+    "id": 144629562,
+    "name": "hexaenneacontagon",
+    "author": "Blueish2763",
+    "creators": ["Blueish2763"],
+    "verifier": "Sinan",
+    "type": "Long",
+    "verification": "https://www.youtube.com/watch?v=5q1ILmyb_xs",
+    "percentToQualify": "66",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/5SVYhjCKC0g?si=ZghwCsRy8CdkwTVr",
+            "percent": 100,
+            "hz": "8/29/2026"
+        },
+        {
+            "user": "Lukas",
+            "link": "https://youtu.be/BpiOw3kiHNA?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "7xv",
+            "link": "https://www.youtube.com/???",
+            "percent": 100,
+            "hz": "?/?/??"
+        },
+    ]
+}
