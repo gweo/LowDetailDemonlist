@@ -40,22 +40,15 @@
             "hz": "8/31/2026"
         },
         {
+            "user": "gweogd",
+            "link": "https://youtu.be/axWdyfDh0fM?si=szLX27mdXmnsMQiv",
+            "percent": 100,
+            "hz": "9/1/2026"
+        {
             "user": "Lemon",
             "link": "https://youtu.be/I0ZXAT7mn6A?si=_cZj2NbTCy8NcPqW",
             "percent": 100,
             "hz": "9/3/2026"
-        },
-        {
-            "user": "gweogd",
-            "link": "https://youtu.be/axWdyfDh0fM?si=szLX27mdXmnsMQiv",
-            "percent": 100,
-            "hz": "?/?/??"
-        },
-        {
-            "user": "victor",
-            "link": "https://www.youtube.com/???",
-            "percent": 100,
-            "hz": "?/?/??"
-        },
+        }
     ]
 }
