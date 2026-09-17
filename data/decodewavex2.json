@@ -1,0 +1,37 @@
+{
+    "id": 147055362,
+    "name": "decode wavex2",
+    "author": "Blueish2762",
+    "creators": ["Blueish2764"],
+    "verifier": "Sinan",
+    "type": "Long",
+    "verification": "https://youtu.be/gd6tSL9X3Xc?si=CzZi2cdQp4LB0qUn",
+    "percentToQualify": "63",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user":"Lukas",
+            "link": "https://youtu.be/j-7UVnXEDEE?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },      
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/4FyYfw4T1LA?si=kKA9Ak0D2uDS-3VG",
+            "percent": 100,
+            "hz": "8/31/2026"
+        },   
+        {
+            "user": "Lemon",
+            "link": "https://youtu.be/M1uci6HEXhw?si=4htbvWwCDSpupkHg",
+            "percent": 100,
+            "hz": "9/5/2026"
+        },
+        {
+            "user": "fev",
+            "link": "https://youtu.be/tGHCzq55KGQ?si=SrQvdI9qwy9zSezp",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
