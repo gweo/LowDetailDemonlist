@@ -1,0 +1,61 @@
+{
+    "id": 144703761,
+    "name": "Ta",
+    "author": "Blueish2763",
+    "creators": ["Blueish2763"],
+    "verifier": "Sinan",
+    "type": "Tiny",
+    "verification": "https://youtu.be/fqr9W_HvK3s?si=KTIbPZ-4H_A2IwxB",
+    "percentToQualify": "99",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "S.O.S",
+            "link": "https://youtu.be/l4QzranEOJs",
+            "percent": 100,
+            "hz": "7/11/2026"
+        },
+      {
+            "user": "S.O.S",
+            "link": "https://youtu.be/T_XiNiGxaqQ?si=ESyfCqP0-L5LQ4Or",
+            "percent": 100,
+            "hz": "7/13/2026"
+        },
+       {
+            "user": "Kinder",
+            "link": "https://youtu.be/d27qTxog_aA?si=HWgbuSuCUOArMP5N",
+            "percent": 100,
+            "hz": "7/22/2026"
+        },
+      {
+            "user": "7xv",
+            "link": "7xv",
+            "percent": 100,
+            "hz": "?/??/2026"
+        },
+      {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/ew3rmTAJhCc?si=Rn2xybvhBEGIGiHA",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },   
+        {
+            "user": "Lukas",
+            "link": "https://youtu.be/IAGe9_UQh20?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },  
+        {
+            "user": "Lemon",
+            "link": "https://youtu.be/Y3EcGhV2cuw?si=eeRYCm8XHvZFlfON",
+            "percent": 100,
+            "hz": "9/5/2026"
+        },
+        {
+            "user": "fev",
+            "link": "https://youtu.be/i7A51QVFOqI?si=BJuNa24SOnklPZMf",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
