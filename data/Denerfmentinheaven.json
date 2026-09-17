@@ -1,0 +1,55 @@
+{
+    "id": 143370136,
+    "name": "Denerfment in heaven",
+    "author": "geodasher9908",
+    "creators": ["geodasher9908"],
+    "verifier": "Kinder",
+    "type": "Long",
+    "verification": "https://youtu.be/oLoSTrw7aCU?si=ExaUw0jyN7GXlMfz",
+    "percentToQualify": "48",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Freenora",
+            "link": "https://youtu.be/Tdy8_r3hZms?feature=shared",
+            "percent": 100,
+            "hz": "6/29/2026"
+        },      
+        {
+            "user": "S.O.S",
+            "link": "https://youtu.be/CuiQRhlHI6Y?si=WwMySITCtKrxkjHJ",
+            "percent": 100,
+            "hz": "6/30/2026"
+        },   
+        {
+            "user": "Sinan",
+            "link": "https://youtu.be/XpLC8aTU7wU?si=Uzs2QGqcQz936nCk",
+            "percent": 100,
+            "hz": "7/11/2026"
+        },
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/ew3rmTAJhCc?si=M8oUoIA7Zhxq0OT8",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "7xv",
+            "link": "7xv",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "Lukas",
+            "link": "https://youtu.be/ffuL2rbN1kk?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "Lemon",
+            "link": "https://youtu.be/17YrYmH4-mM?si=f9cRzty9GHCENsH-",
+            "percent": 100,
+            "hz": "9/4/2026"
+        },
+    ]
+}
