@@ -1,0 +1,49 @@
+
+    "id": 144596367,
+    "name": "octatetracontagon",
+    "author": "Blueish2763",
+    "creators": ["Blueish2763"],
+    "verifier": "Sinan",
+    "type": "XL"
+    "verification": "https://www.youtube.com/watch?v=K_Td1NSm6_U",
+    "percentToQualify": "56",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "HJH4903",
+            "link": "https://youtu.be/SEn_0DFCn3E?feature=shared",
+            "percent": 100,
+            "hz": "8/12/2026"
+        },
+      {
+            "user": "Thomas",
+            "link": "https://youtu.be/9tOAlT6zC4w?si=v8WwZirlmohjv33S",
+            "percent": 100,
+            "hz": "8/16/2026"
+        },
+       {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/5SVYhjCKC0g?si=HlJIyIzuFcAqEDPl",
+            "percent": 100,
+            "hz": "8/29/2026"
+        },   
+        {
+            "user": "Lukas",
+            "link": "https://youtu.be/MmTKmk6bCG8?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },  
+        {
+            "user": "7xv",
+            "link": "https://www.youtube.com/watch?v=WpLofptQBaI",
+            "percent": 100,
+            "hz": "?/??/????",
+        },
+        {
+            "user": "fev",
+            "link": "https://youtu.be/NaRMl_e_eK4?si=dI-_eV0j2vdtK-fx",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
