@@ -1,0 +1,43 @@
+{
+    "id": 143565418,
+    "name": "The Dream",
+    "author": "geodasher9908",
+    "creators": ["geodasher9908"],
+    "verifier": "Kinder",
+    "type": "Long",
+    "verification": "https://youtu.be/ZwLLQ2KPFJo?si=O5n3CggCkV0Gr-aK",
+    "percentToQualify": "52",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Sinan",
+            "link": "https://youtu.be/l4QzranEOJs",
+            "percent": 100,
+            "hz": "7/11/2026"
+        },
+      {
+            "user": "S.O.S",
+            "link": "https://www.youtube.com/watch?v=JXPORNgSedA",
+            "percent": 100,
+            "hz": "7/26/2026"
+        },
+       {
+            "user": "Artemis 13",
+            "link": "https://medal.tv/games/geometry-dash/clips/npC5Xj5STvRdOTr9F?invite=cr-MSxUcnMsNTk2MDUwNDM4",
+            "percent": 100,
+            "hz": "?/??/????"
+        },
+      {
+            "user": "Lukas",
+            "link": "https://www.youtube.com/watch?v=OsDZ5z2-qNk",
+            "percent": 100,
+            "hz": "8/31/2026"
+        },
+      {
+            "user": "Lemon",
+            "link": "https://www.youtube.com/watch?v=r4wMYw7n7nk",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
