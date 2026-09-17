@@ -1,0 +1,43 @@
+{
+    "id": 147745480,
+    "name": "iconic clicks",
+    "author": "jaydowe",
+    "creators": ["jaydowe"],
+    "verifier": "Kinder",
+    "type": "Long",
+    "verification": "https://youtu.be/KBrgbyB8Zdk?si=tlNQBD1t1JQ2zOP6",
+    "percentToQualify": "54",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "KayogreGD",
+            "link": "https://youtu.be/2WJud-s1KaI?si=qRDtf5Pgu2es4Ofj",
+            "percent": 100,
+            "hz": "8/26/2026"
+        },      
+        {
+            "user": "Sinan",
+            "link": "https://youtu.be/7DwG8Sm1Ets?si=-pZoyOsi1MqAArmB",
+            "percent": 100,
+            "hz": "8/29/2026"
+        },   
+        {
+            "user": "Lukas",
+            "link": "https://youtu.be/1g4q2DhY-D0?feature=shared",
+            "percent": 100,
+            "hz": "8/30/2026"
+        },
+        {
+            "user": "7xv",
+            "link": "7xv",
+            "percent": 100,
+            "hz": "9/4/2026"
+        },
+        {
+            "user": "fev",
+            "link": "https://youtu.be/E6wbi8jVGK8?si=SXGSghxQYmt6LOyZ",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
