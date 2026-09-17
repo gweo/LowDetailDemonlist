@@ -1,0 +1,25 @@
+{
+    "id": 19737724,
+    "name": "ReTraY 2P",
+    "author": "iIExoticIi NK",
+    "creators": ["iIExoticIi NK,DimaViKuLov26"],
+    "verifier": "Sinan",
+    "type": "Long",
+    "verification": "https://youtu.be/8eijP6TKqiI?si=3FQbCSm6sILQpqlp",
+    "percentToQualify": "50",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/5vReZ54CwIs?si=g7EirXI4lJ9hZ9Js",
+            "percent": 100,
+            "hz": "9/5/2026"
+        },
+       {
+            "user": "fev",
+            "link": "https://youtu.be/TJ7rL8r71-M?feature=shared",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
+    ]
+}
