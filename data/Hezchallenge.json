@@ -4,10 +4,16 @@
     "author": "LORDZ666GD",
     "creators": ["LORDZ666GD"],
     "verifier": "S.O.S",
-    "type": "XL",
+    "type": "Tiny",
     "verification": "https://youtu.be/3iDIj6L3Qic?si=2JPK0ni90PH7gdDJ",
-    "percentToQualify": "41",
+    "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Lemon",
+            "link": "https://youtu.be/5yxqlXUodmk",
+            "percent": 100,
+            "hz": "9/6/2026"
+        }
         ]
 }
