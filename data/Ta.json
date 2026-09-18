@@ -6,15 +6,10 @@
     "verifier": "Sinan",
     "type": "Tiny",
     "verification": "https://youtu.be/fqr9W_HvK3s?si=KTIbPZ-4H_A2IwxB",
-    "percentToQualify": "99",
+    "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "S.O.S",
-            "link": "https://youtu.be/l4QzranEOJs",
-            "percent": 100,
-            "hz": "7/11/2026"
-        },
+        
       {
             "user": "S.O.S",
             "link": "https://youtu.be/T_XiNiGxaqQ?si=ESyfCqP0-L5LQ4Or",
