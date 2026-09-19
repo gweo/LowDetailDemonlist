@@ -9,5 +9,11 @@
     "percentToQualify": "52",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Kinder",
+            "link": "https://www.youtube.com/watch?v=lOMU-82blyk",
+            "percent": 100,
+            "hz": "9/19/2026"
+        }
     ]
 }
