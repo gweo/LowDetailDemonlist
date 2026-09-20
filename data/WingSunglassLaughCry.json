@@ -9,5 +9,17 @@
     "percentToQualify": "61",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Kinder",
+            "link": "https://youtu.be/hspUN8WER_U?si=YLzZfSRaw9L4M_f-",
+            "percent": 100,
+            "hz": "9/20/2026"
+        },
+        {
+            "user": "Earl",
+            "link": "https://youtu.be/jyfTm7jS-Rs",
+            "percent": 100,
+            "hz": "9/20/2026"
+        }
     ]
 }
