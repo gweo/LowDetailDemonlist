@@ -178,8 +178,18 @@ export default {
 
         this.loading = false;
     },
-    methods: {
+       methods: {
         embed,
         score,
+        getRank(index) {
+            let rank = 0;
+            for (let i = 0; i <= index; i++) {
+                // Pokud prvek existuje a nemá nastavené unrated, přičteme pozici
+                if (this.list[i] && !this.list[i].unrated) {
+                    rank++;
+                }
+            }
+            return rank;
+        }
     },
 };
