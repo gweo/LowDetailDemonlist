@@ -6,7 +6,7 @@
     "verifier": "Sinan",
     "type": "Long",
     "verification": "https://youtu.be/8eijP6TKqiI?si=3FQbCSm6sILQpqlp",
-    "percentToQualify": "50",
+    "percentToQualify": "70",
     "password": "Free To Copy",
     "records": [
         {
@@ -20,6 +20,12 @@
             "link": "https://youtu.be/TJ7rL8r71-M?feature=shared",
             "percent": 100,
             "hz": "9/6/2026"
+        },
+        {
+            "user": "Earl",
+            "link": "https://youtu.be/jyfTm7jS-Rs",
+            "percent": 100,
+            "hz": "9/20/2026"
         }
     ]
 }
