@@ -1,0 +1,19 @@
+{
+    "id": 149214581,
+    "name": "glock",
+    "author": "MrSwagSoda",
+    "creators": ["MrSwagSoda"],
+    "verifier": "AGDP",
+    "type": "Tiny",
+    "verification": "https://www.youtube.com/watch?v=u_CRHOZLXFc",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/KJ7VpiVkVbM?si=Qfp_d29UzMLYh96Q",
+            "percent": 100,
+            "hz": "9/20/2026"
+        }
+    ]
+}
