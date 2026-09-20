@@ -1,14 +1,13 @@
 {
     "id": 0,
     "name": "Extended List",
-    "author": "",
-    "creators": [""],
-    "verifier": "",
-    "type": "",
+    "author": "System",
+    "creators": [],
+    "verifier": null, 
+    "type": "XL",
     "verification": "",
-    "percentToQualify": "",
-    "unrated": true,
+    "percentToQualify": "100",
     "password": "idk",
-    "records": [
-    ]
+    "unrated": true,
+    "records": []
 }
