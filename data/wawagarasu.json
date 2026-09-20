@@ -13,13 +13,19 @@
             "user": "KayogreGD",
             "link": "https://youtu.be/-XoRg-MWTwA?si=Mlw6BIILJ3xj8Y57",
             "percent": 100,
-            "hz": 0
+            "hz": "8/27/2026"
         },
         {
             "user": "Lukas",
             "link": "https://www.youtube.com/watch?v=8qO5Nu06fUU",
             "percent": 100,
-            "hz": 0
+            "hz": "8/30/2026"
+        },    
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/N3Y0LRpEw_Q?si=KuoTUjTmMaEacKlj",
+            "percent": 100,
+            "hz": "9/15/2026"
         }
     ]
 }
