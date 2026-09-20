@@ -23,14 +23,11 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="(level, i) in list">
-                       <td class="rank">
-    <p v-if="level.unrated" class="type-label-lg">–</p>
-    <p v-else-if="list.slice(0, i + 1).filter(l => !l.unrated).length <= 100" class="type-label-lg">
-    </p>
-    <p v-else class="type-label-lg">Legacy</p>
-</td>
-
+                    <tr v-for="([level, err], i) in list">
+                        <td class="rank">
+                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-else class="type-label-lg">Legacy</p>
+                        </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
@@ -180,17 +177,8 @@ export default {
 
         this.loading = false;
     },
-       methods: {
+    methods: {
         embed,
         score,
-        getRank(index) {
-            let rank = 0;
-            for (let i = 0; i <= index; i++) {
-                if (this.list[i] && !this.list[i].unrated) {
-                    rank++;
-                }
-            }
-            return rank;
-        }
     },
 };
