@@ -6,7 +6,7 @@
     "verifier": "Lemon",
     "type": "Short",
     "verification": "https://youtu.be/cBVsthRrcg0?si=yJaYXYk6T-TtIhIk",
-    "percentToQualify": "67",
+    "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
         {
@@ -14,6 +14,12 @@
             "link": "https://youtu.be/1ool6vXx9j0?si=_6O4QEQ6cTCl66Ql",
             "percent": 100,
             "hz": "9/20/2026"
-        }
+        },    
+        {
+            "user": "testing",
+            "link": "https://youtu.be/1ool6vXx9j0?si=_6O4QEQ6cTCl66Ql",
+            "percent": 68,
+            "hz": "9/20/2026"
+        },
     ]
 }
