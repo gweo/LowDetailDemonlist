@@ -23,7 +23,7 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="(level, i) in list">
                        <td class="rank">
                         <p v-if="level.unrated" class="type-label-lg">–</p>
                         <p v-else-if="getRank(i) <= 100" class="type-label-lg">#{{ getRank(i) }}</p>
