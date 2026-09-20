@@ -1,0 +1,19 @@
+{
+    "id":  149172138,
+    "name": "SUPERdash",
+    "author": "enotik929",
+    "creators": ["enotik929"],
+    "verifier": "Lemon",
+    "type": "Short",
+    "verification": "https://youtu.be/cBVsthRrcg0?si=yJaYXYk6T-TtIhIk",
+    "percentToQualify": "67",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/1ool6vXx9j0?si=_6O4QEQ6cTCl66Ql",
+            "percent": 100,
+            "hz": "9/20/2026"
+        }
+    ]
+}
