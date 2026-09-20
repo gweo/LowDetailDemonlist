@@ -24,11 +24,11 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
-                        <td class="rank">
-                            <p v-if="level.unrated" class="type-label-lg">–</p>
-                            <p v-else-if="i + 1 <= 100" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
-                        </td>
+                       <td class="rank">
+                        <p v-if="level.unrated" class="type-label-lg">–</p>
+                        <p v-else-if="getRank(i) <= 100" class="type-label-lg">#{{ getRank(i) }}</p>
+                        <p v-else class="type-label-lg">Legacy</p>
+                    </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
