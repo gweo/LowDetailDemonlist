@@ -1,0 +1,19 @@
+{
+    "id": 149676021,
+    "name": "LORDZ WAVE STREAM",
+    "author": "LORDZ666GD",
+    "creators": ["LORDZ666GD"],
+    "verifier": "S.O.S",
+    "type": "Short",
+    "verification": "https://www.youtube.com/watch?v=gQUq8dMTEhU",
+    "percentToQualify": "70",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Earl",
+            "link": "https://youtu.be/-GBr6gdcGWs",
+            "percent": 100,
+            "hz": "10/3/2026"
+        }
+    ]
+}
