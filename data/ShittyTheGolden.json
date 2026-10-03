@@ -13,13 +13,19 @@
             "user": "Adur",
             "link": "https://youtu.be/0dW-NmaSdaQ?si=oc8RqC6zZY09nFX1-",
             "percent": 100,
-            "hz": 0
+            "hz": "7/19/2026"
         },
        {
             "user": "Thomas",
             "link": "https://youtu.be/FVaCi5iSOP4?si=rELdZeW1GEkFUMsY",
             "percent": 100,
-            "hz": 0
+            "hz": "7/24/2026"
+        },
+        {
+            "user": "Hellanx",
+            "link": "https://www.youtube.com/watch?v=st2zyiIbtAE",
+            "percent": 100,
+            "hz": "9/26/2026"
         }
     ]
 }
