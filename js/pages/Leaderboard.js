@@ -9,6 +9,7 @@ const playerCountries = {
     "Thomas": "pt",
     "arda!!": "at",
     "S.O.S": "us",
+    "7xv": "gb",
     "KayogreGD": "ro",
     "Dawgie": "nl",
     "Sinan": "az",
@@ -22,22 +23,28 @@ const playerCountries = {
     "Lemon": "vn",
     "HJH4903": "ie",
     "AGDP": "ee",
+    "Ferret90": "us"
 };
 
 const countryNames = {
     "at": "Austria",
     "az": "Azerbaijan",
+    "ca": "Canada",
     "cz": "Czechia",
+    "de": "Germany",
     "ee": "Estonia",
     "gb": "United Kingdom",
     "gr": "Greece",
     "ie": "Ireland",
     "it": "Italy",
+    "jp": "Japan",
+    "kr": "Korea",
     "nl": "Netherlands",
     "pl": "Poland",
     "pt": "Portugal",
     "ro": "Romania",
     "ru": "Russia",
+    "tr": "Turkey",
     "us": "United States",
     "vn": "Vietnam"
 };
@@ -71,6 +78,7 @@ export default {
                     <div style="margin-bottom: 15px;">
                         <select v-model="selectedCountry" @change="selected = 0" style="width: 100%; padding: 10px; background: #222; color: #fff; border: 1px solid #444; border-radius: 5px; font-family: inherit;">
                             <option value="all">All nations</option>
+                            <option value="none">🌐 No country</option>
                             <option v-for="(name, code) in countryNames" :value="code">
                                 {{ getFlagEmojiByCode(code) }} {{ name }}
                             </option>
@@ -166,6 +174,10 @@ export default {
             
             if (this.selectedCountry === 'all') {
                 return mapped;
+            }
+            
+            if (this.selectedCountry === 'none') {
+                return mapped.filter(item => !playerCountries[item.user]);
             }
             
             return mapped.filter(item => {
