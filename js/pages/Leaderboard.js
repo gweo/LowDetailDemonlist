@@ -9,6 +9,7 @@ const playerCountries = {
     "Thomas": "pt",
     "arda!!": "at",
     "S.O.S": "us",
+    "7xv": "gb",
     "KayogreGD": "ro",
     "Dawgie": "nl",
     "Sinan": "az",
@@ -22,6 +23,30 @@ const playerCountries = {
     "Lemon": "vn",
     "HJH4903": "ie",
     "AGDP": "ee",
+    "Ferret90": "us"
+};
+
+const countryNames = {
+    "at": "Austria",
+    "az": "Azerbaijan",
+    "ca": "Canada",
+    "cz": "Czechia",
+    "de": "Germany",
+    "ee": "Estonia",
+    "gb": "United Kingdom",
+    "gr": "Greece",
+    "ie": "Ireland",
+    "it": "Italy",
+    "jp": "Japan",
+    "kr": "Korea",
+    "nl": "Netherlands",
+    "pl": "Poland",
+    "pt": "Portugal",
+    "ro": "Romania",
+    "ru": "Russia",
+    "tr": "Turkey",
+    "us": "United States",
+    "vn": "Vietnam"
 };
 
 export default {
@@ -34,6 +59,7 @@ export default {
             loading: true,
             selected: 0,
             err: [],
+            selectedCountry: 'all'
         };
     },
     template: `
@@ -47,17 +73,27 @@ export default {
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
+                
                 <div class="board-container">
+                    <div style="margin-bottom: 15px;">
+                        <select v-model="selectedCountry" @change="selected = 0" style="width: 100%; padding: 10px; background: #222; color: #fff; border: 1px solid #444; border-radius: 5px; font-family: inherit;">
+                            <option value="all">All nations</option>
+                            <option v-for="(name, code) in countryNames" :value="code">
+                                {{ getFlagEmojiByCode(code) }} {{ name }}
+                            </option>
+                        </select>
+                    </div>
+
                     <table class="board">
-                        <tr v-for="(entry, i) in leaderboard">
+                        <tr v-for="(entry, index) in filteredLeaderboard" :key="entry.user">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p class="type-label-lg">#{{ entry.originalRank }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(entry.total) }}</p>
                             </td>
-                            <td class="user" :class="{ 'active': selected === i }">
-                                <button @click="selected = i">
+                            <td class="user" :class="{ 'active': leaderboard[selected]?.user === entry.user }">
+                                <button @click="selectPlayer(entry.user)">
                                     <span class="type-label-lg">
                                         <span v-if="getFlagEmoji(entry.user)" style="margin-right: 8px;">{{ getFlagEmoji(entry.user) }}</span>
                                         {{ entry.user }}
@@ -70,7 +106,7 @@ export default {
                 <div class="player-container">
                     <div class="player" v-if="entry">
                         <h1>
-                            #{{ selected + 1 }} 
+                            #{{ entry.originalRank }} 
                             <span v-if="getFlagEmoji(entry.user)" style="margin-right: 12px; font-size: 0.9em; vertical-align: middle;">{{ getFlagEmoji(entry.user) }}</span>
                             {{ entry.user }}
                         </h1>
@@ -126,6 +162,24 @@ export default {
         entry() {
             return this.leaderboard[this.selected];
         },
+        countryNames() {
+            return countryNames;
+        },
+        filteredLeaderboard() {
+            const mapped = this.leaderboard.map((item, i) => ({
+                ...item,
+                originalRank: i + 1
+            }));
+            
+            if (this.selectedCountry === 'all') {
+                return mapped;
+            }
+            
+            return mapped.filter(item => {
+                const code = playerCountries[item.user];
+                return code && code.toLowerCase() === this.selectedCountry.toLowerCase();
+            });
+        }
     },
     async mounted() {
         const [leaderboard, err] = await fetchLeaderboard();
@@ -137,12 +191,24 @@ export default {
         localize,
         getFlagEmoji(username) {
             const code = playerCountries[username];
+            return this.generateEmoji(code);
+        },
+        getFlagEmojiByCode(code) {
+            return this.generateEmoji(code);
+        },
+        generateEmoji(code) {
             if (!code) return '';
             const codePoints = code
                 .toUpperCase()
                 .split('')
                 .map(char => 127397 + char.charCodeAt(0));
             return String.fromCodePoint(...codePoints);
+        },
+        selectPlayer(username) {
+            const index = this.leaderboard.findIndex(p => p.user === username);
+            if (index !== -1) {
+                this.selected = index;
+            }
         }
     },
 };
