@@ -88,7 +88,7 @@ export default {
                             <td class="user" :class="{ 'active': leaderboard[selected]?.user === entry.user }">
                                 <button @click="selectPlayer(entry.user)">
                                     <span class="type-label-lg">
-                                        <span v-if="getFlagEmoji(entry.user)" style="margin-right: 8px;">{{ getFlagEmoji(entry.user) }}</span>
+                                        <span style="margin-right: 8px;">{{ getFlagEmoji(entry.user) }}</span>
                                         {{ entry.user }}
                                     </span>
                                 </button>
@@ -100,7 +100,7 @@ export default {
                     <div class="player" v-if="entry">
                         <h1>
                             #{{ entry.originalRank }} 
-                            <span v-if="getFlagEmoji(entry.user)" style="margin-right: 12px; font-size: 0.9em; vertical-align: middle;">{{ getFlagEmoji(entry.user) }}</span>
+                            <span style="margin-right: 12px; font-size: 0.9em; vertical-align: middle;">{{ getFlagEmoji(entry.user) }}</span>
                             {{ entry.user }}
                         </h1>
                         <h3>{{ localize(entry.total) }}</h3>
@@ -184,6 +184,7 @@ export default {
         localize,
         getFlagEmoji(username) {
             const code = playerCountries[username];
+            if (!code) return '🌐';
             return this.generateEmoji(code);
         },
         getFlagEmojiByCode(code) {
