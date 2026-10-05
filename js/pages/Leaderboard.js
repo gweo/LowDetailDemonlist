@@ -59,7 +59,7 @@ export default {
                             <td class="user" :class="{ 'active': selected === i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">
-                                        <span v-if="getFlagClass(entry.user)" :class="getFlagClass(entry.user)" style="margin-right: 8px; border-radius: 2px;"></span>
+                                        <span v-if="getFlagEmoji(entry.user)" style="margin-right: 8px;">{{ getFlagEmoji(entry.user) }}</span>
                                         {{ entry.user }}
                                     </span>
                                 </button>
@@ -71,7 +71,7 @@ export default {
                     <div class="player" v-if="entry">
                         <h1>
                             #{{ selected + 1 }} 
-                            <span v-if="getFlagClass(entry.user)" :class="getFlagClass(entry.user)" style="margin-right: 12px; border-radius: 3px; font-size: 0.8em; vertical-align: middle;"></span>
+                            <span v-if="getFlagEmoji(entry.user)" style="margin-right: 12px; font-size: 0.9em; vertical-align: middle;">{{ getFlagEmoji(entry.user) }}</span>
                             {{ entry.user }}
                         </h1>
                         <h3>{{ localize(entry.total) }}</h3>
@@ -135,10 +135,14 @@ export default {
     },
     methods: {
         localize,
-        getFlagClass(username) {
+        getFlagEmoji(username) {
             const code = playerCountries[username];
-            return code ? 'fi fi-' + code.toLowerCase() : '';
+            if (!code) return '';
+            const codePoints = code
+                .toUpperCase()
+                .split('')
+                .map(char => 127397 + char.charCodeAt(0));
+            return String.fromCodePoint(...codePoints);
         }
     },
 };
-
