@@ -9,7 +9,6 @@ const playerCountries = {
     "Thomas": "pt",
     "arda!!": "at",
     "S.O.S": "us",
-    "7xv": "gb",
     "KayogreGD": "ro",
     "Dawgie": "nl",
     "Sinan": "az",
@@ -23,28 +22,22 @@ const playerCountries = {
     "Lemon": "vn",
     "HJH4903": "ie",
     "AGDP": "ee",
-    "Ferret90": "us"
 };
 
 const countryNames = {
     "at": "Austria",
     "az": "Azerbaijan",
-    "ca": "Canada",
     "cz": "Czechia",
-    "de": "Germany",
     "ee": "Estonia",
     "gb": "United Kingdom",
     "gr": "Greece",
     "ie": "Ireland",
     "it": "Italy",
-    "jp": "Japan",
-    "kr": "Korea",
     "nl": "Netherlands",
     "pl": "Poland",
     "pt": "Portugal",
     "ro": "Romania",
     "ru": "Russia",
-    "tr": "Turkey",
     "us": "United States",
     "vn": "Vietnam"
 };
