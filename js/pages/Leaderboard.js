@@ -29,22 +29,17 @@ const playerCountries = {
 const countryNames = {
     "at": "Austria",
     "az": "Azerbaijan",
-    "ca": "Canada",
     "cz": "Czechia",
-    "de": "Germany",
     "ee": "Estonia",
     "gb": "United Kingdom",
     "gr": "Greece",
     "ie": "Ireland",
     "it": "Italy",
-    "jp": "Japan",
-    "kr": "Korea",
     "nl": "Netherlands",
     "pl": "Poland",
     "pt": "Portugal",
     "ro": "Romania",
     "ru": "Russia",
-    "tr": "Turkey",
     "us": "United States",
     "vn": "Vietnam"
 };
