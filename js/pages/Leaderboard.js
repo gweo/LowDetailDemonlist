@@ -5,34 +5,37 @@ import Spinner from '../components/Spinner.js';
 const playerCountries = {
     "Freenora": "ie",
     "Adur": "pl",
-    "Lukas": "it", 
+    "Lukas": "it",
     "Thomas": "pt",
     "arda!!": "at",
     "S.O.S": "us",
     "KayogreGD": "ro",
     "Dawgie": "nl",
     "Sinan": "az",
-    "Kinder": "gb", 
-    "gweogd": "us",  
-    "Earl": "cz",  
-    "fev": "ru",  
-    "Vloxy": "pl",     
-    "Artemis 13": "gr",  
-    "Bill13high": "gr",    
-    "Lemon": "vn",       
-    "HJH4903": "ie",     
-    "AGDP": "ee",          
+    "Kinder": "gb",
+    "gweogd": "us",
+    "Earl": "cz",
+    "fev": "ru",
+    "Vloxy": "pl",
+    "Artemis 13": "gr",
+    "Bill13high": "gr",
+    "Lemon": "vn",
+    "HJH4903": "ie",
+    "AGDP": "ee",
 };
+
 export default {
     components: {
         Spinner,
     },
-    data: () => ({
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-    }),
+    data() {
+        return {
+            leaderboard: [],
+            loading: true,
+            selected: 0,
+            err: [],
+        };
+    },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -56,8 +59,7 @@ export default {
                             <td class="user" :class="{ 'active': selected === i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">
-                                        <!-- VLAJKA V TABULCE VLEVO -->
-                                        <span v-if="playerCountries[entry.user]" :class="'fi fi-' + playerCountries[entry.user].toLowerCase()" style="margin-right: 8px; border-radius: 2px;"></span>
+                                        <span v-if="getFlagClass(entry.user)" :class="getFlagClass(entry.user)" style="margin-right: 8px; border-radius: 2px;"></span>
                                         {{ entry.user }}
                                     </span>
                                 </button>
@@ -67,10 +69,9 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player" v-if="entry">
-                        <!-- VLAJKA U VELKÉHO JMÉNA PROFILU VPRAVO -->
                         <h1>
                             #{{ selected + 1 }} 
-                            <span v-if="playerCountries[entry.user]" :class="'fi fi-' + playerCountries[entry.user].toLowerCase()" style="margin-right: 12px; border-radius: 3px; font-size: 0.8em; vertical-align: middle;"></span>
+                            <span v-if="getFlagClass(entry.user)" :class="getFlagClass(entry.user)" style="margin-right: 12px; border-radius: 3px; font-size: 0.8em; vertical-align: middle;"></span>
                             {{ entry.user }}
                         </h1>
                         <h3>{{ localize(entry.total) }}</h3>
@@ -134,5 +135,10 @@ export default {
     },
     methods: {
         localize,
+        getFlagClass(username) {
+            const code = playerCountries[username];
+            return code ? 'fi fi-' + code.toLowerCase() : '';
+        }
     },
 };
+
