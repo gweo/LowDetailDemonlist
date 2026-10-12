@@ -38,6 +38,7 @@ const countryNames = {
     "pt": "Portugal",
     "ro": "Romania",
     "ru": "Russia",
+    "sk": "Slovakia",
     "us": "United States",
     "vn": "Vietnam"
 };
