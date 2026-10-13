@@ -13,7 +13,7 @@ const playerCountries = {
     "Dawgie": "nl",
     "Sinan": "az",
     "Kinder": "gb",
-    "gweogd": "sk",
+    "gweogd": "aq",
     "Earl": "nk",
     "fev": "ru",
     "Vloxy": "pl",
