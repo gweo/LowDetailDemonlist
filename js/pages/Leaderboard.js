@@ -14,7 +14,7 @@ const playerCountries = {
     "Sinan": "az",
     "Kinder": "gb",
     "gweogd": "sk",
-    "Earl": "cz",
+    "Earl": "nk",
     "fev": "ru",
     "Vloxy": "pl",
     "Artemis 13": "gr",
