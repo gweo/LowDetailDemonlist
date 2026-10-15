@@ -1,0 +1,19 @@
+{
+    "id": 150513668,
+    "name": "wavelike",
+    "author": "MrSwagSoda",
+    "creators": ["MrSwagSoda"],
+    "verifier": "AGDP",
+    "type": "Tiny",
+    "verification": "https://youtu.be/9NtbvXQhQv8",
+    "percentToQualify": "52",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/cLkuO9hOPTw?si=BRRMEyFpoqSgzJb7",
+            "percent": 100,
+            "hz": "10/14/2026"
+        }
+    ]
+}
