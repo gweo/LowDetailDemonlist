@@ -23,6 +23,7 @@ const playerCountries = {
     "HJH4903": "ie",
     "AGDP": "ee",
     "Lukie": "us",
+    "Touchkahn": "vn",
 };
 
 const countryNames = {
