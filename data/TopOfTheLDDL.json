@@ -8,7 +8,11 @@
     "verification": "https://youtu.be/K-eg3INDnUk?si=5zNO8LW1pwA_-nYl",
     "percentToQualify": "100",
     "password": "Free To Copy",
-    "records": [
-        https://youtu.be/ZCPLpbSE58E
+    "records": [ {
+            "user": "Earl",
+            "link": "https://youtu.be/ZCPLpbSE58E",
+            "percent": 100,
+            "hz": "10/18/2026"
+        }
     ]
 }
