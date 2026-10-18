@@ -9,5 +9,11 @@
     "percentToQualify": "51",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Touchkahn",
+            "link": "https://www.youtube.com/watch?v=o055JfdJpjo",
+            "percent": 100,
+            "hz": "10/18/26"
+        }
     ]
 }
