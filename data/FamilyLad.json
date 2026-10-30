@@ -1,0 +1,19 @@
+{
+    "id": 151313510,
+    "name": "Family Lad",
+    "author": "MrSwagSoda",
+    "creators": ["MrSwagSoda"],
+    "verifier": "AGDP",
+    "type": "Tiny",
+    "verification": "https://youtu.be/ReJPFsn3tNo",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gweogd",
+            "link": "https://youtu.be/V5QU3nWkeDw?si=tvQj0TTvqdeENn7w",
+            "percent": 100,
+            "hz": "10/29/2026"
+        }
+    ]
+}
