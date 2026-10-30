@@ -9,6 +9,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-        
+        {
+            "user": "Watoh",
+            "link": "https://medal.tv/games/geometry-dash/clips/nPnEjfhTV9iBlLPTC?invite=cr-MSxPOGwsNDMxOTM1MzA2",
+            "percent": 100,
+            "hz": "10/30/2026"
+        }
     ]
 }
