@@ -5,7 +5,7 @@
     "creators": ["TheLostCreator"],
     "verifier": "AGDP",
     "type": "Medium",
-    "verification": "https://youtu.be/z97dyPAUC2M?si=M4ptEGy9lqHLJppQ",
+    "verification": "https://medal.tv/games/geometry-dash/clips/nPJaz1NlyaI-tPhc-?invite=cr-MSxnTzgsNDMxOTM1MzA2",
     "percentToQualify": "62",
     "password": "Free To Copy",
     "records": [
@@ -14,6 +14,12 @@
             "link": "https://youtu.be/usSvhbXOFaE?si=2I4GiYs0MEUagT7E",
             "percent": 100,
             "hz": "10/31/26"
+        },
+        {
+            "user": "Watoh",
+            "link": "https://youtu.be/usSvhbXOFaE?si=2I4GiYs0MEUagT7E",
+            "percent": 100,
+            "hz": "10/30/26"
         }
     ]
 }
