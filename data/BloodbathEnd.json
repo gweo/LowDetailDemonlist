@@ -27,11 +27,17 @@
             "percent": 100,
             "hz": "9/1/2026"
         },
-      {
+        {
             "user": "Earl",
             "link": "https://www.youtube.com/watch?v=TjK76kUarVs",
             "percent": 100,
             "hz": "9/4/2026"
+        },
+        {
+            "user": "cluwzz",
+            "link": "https://medal.tv/games/geometry-dash/clips/nQsRfgBYQl4ooxytQ?invite=cr-MSxKY3ksNDIxNTMwNDMz",
+            "percent": 100,
+            "hz": "11/1/2026"
         }
     ]
 }
