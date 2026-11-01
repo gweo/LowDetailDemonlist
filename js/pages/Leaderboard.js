@@ -21,7 +21,7 @@ const playerCountries = {
     "Bill13high": "gr",
     "Lemon": "vn",
     "HJH4903": "ie",
-    "AGDP": "ee",
+    "cluwzz": "ee",
     "Lukie": "us",
     "Touchkahn": "vn",
 };
