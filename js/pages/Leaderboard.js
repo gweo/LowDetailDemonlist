@@ -24,7 +24,7 @@ const playerCountries = {
     "cluwzz": "ee",
     "Lukie": "us",
     "Touchkahn": "vn",
-    "Watoh"!p: "ua",
+    "Watoh": "ua",
 };
 
 const countryNames = {
